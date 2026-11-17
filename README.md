@@ -130,7 +130,7 @@ use o engenheiro-reverso para documentar a API que este app consome (é o nosso 
 
 - **Commit, push e PR** só acontecem quando você pede. Operações destrutivas ou contra produção pedem confirmação.
 - **Correções não escondem falhas**: nada de desativar teste, engolir exceção ou suprimir erro para "fazer passar".
-- **Engenharia reversa** é para manutenção, migração, interoperabilidade, auditoria autorizada e análise de artefato suspeito. Os agentes não quebram proteção de licença ou DRM, não ajudam em trapaça, não extraem credenciais ou dados de terceiros e não atacam sistemas alheios. Artefatos não confiáveis só são executados em ambiente isolado.
+- **Engenharia reversa** assume que o alvo é seu — seus APKs, binários e sistemas — ou algo que você tem direito de analisar, e vai direto ao trabalho, sem cerimônia de autorização. Mantém só o que protege você: artefato de origem desconhecida (malware, binário baixado) roda em ambiente isolado, e scripts encontrados dentro de um artefato não são executados às cegas.
 - **Segredos encontrados** são relatados (local e tipo, sem o valor) com recomendação de rotação.
 - **Instalação de ferramentas** só com sua autorização.
 

@@ -11,9 +11,9 @@
 - [Formatos de arquivo desconhecidos](#formatos-de-arquivo-desconhecidos)
 - [Banco de dados sem documentação](#banco-de-dados-sem-documentação)
 
-## Limites
+## Cuidados práticos
 
-Capture apenas tráfego dos seus próprios aplicativos, dispositivos e ambientes de teste, com contas de teste. Ao explorar uma API, fique dentro do que a sua credencial permite, respeite limites de taxa e não use produção para experimentos que alterem dados. Capturas contêm credenciais e dados pessoais: guarde-as fora do repositório e remova tokens antes de compartilhar qualquer trecho.
+Capture o tráfego do seu app em dispositivos e ambientes de teste, de preferência com contas de teste. Ao explorar a API, prefira o ambiente de homologação e não dispare contra produção experimentos que alterem ou apaguem dados reais — é o que protege a sua própria base. Capturas (`.flow`, `.har`, `.pcap`) contêm credenciais e dados pessoais: guarde-as fora do repositório (`re-workspace/`) e remova tokens antes de colar qualquer trecho num relatório ou commit.
 
 ## Capturar tráfego HTTP(S)
 

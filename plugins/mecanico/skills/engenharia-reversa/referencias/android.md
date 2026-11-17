@@ -131,7 +131,7 @@ Ver [rede-e-apis.md](rede-e-apis.md) para a captura. Específico do Android:
 </network-security-config>
 ```
 
-- Fixação de certificado (pinning): no seu app, desative-a no build de depuração (flag de build) para inspecionar o tráfego. Em app de terceiros, a alternativa legítima é observar pelo lado do servidor que você controla ou usar a documentação/SDK do fornecedor.
+- Fixação de certificado (pinning): no seu app, desative-a no build de depuração (flag de build) para inspecionar o tráfego — é o caminho mais limpo. Se só tiver o build de produção, as opções são instrumentar o app em dispositivo de teste (Frida/objection contornam o pinning em tempo de execução) ou observar pelo lado do servidor que você controla.
 - O emulador oficial aceita proxy: `emulator -avd <nome> -http-proxy http://127.0.0.1:8080`.
 
 ## Ofuscação (R8/ProGuard)
