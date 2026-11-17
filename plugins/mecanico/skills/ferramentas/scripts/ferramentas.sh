@@ -76,6 +76,10 @@ re|wasm2wat|wabt|wabt||WebAssembly para texto legível
 re|js-beautify|||npm:js-beautify|formatação de JavaScript minificado
 re|webcrack|||npm:webcrack|desempacota bundles webpack e desofusca JavaScript
 re|ilspycmd|||dotnet:ilspycmd|descompilador .NET
+re|de4dot|||manual:https://github.com/de4dot/de4dot (no Linux/macOS roda via mono)|desofuscador de assemblies .NET
+re|innoextract|innoextract|innoextract||extrai instaladores Inno Setup (.exe)
+re|msiextract|msitools|msitools||extrai e inspeciona pacotes MSI (msiextract, msiinfo)
+re|osslsigncode|osslsigncode|osslsigncode||verifica a assinatura Authenticode de .exe, .dll e .msi
 re|yara|yara|yara||identificação por regras/assinaturas
 re|exiftool|libimage-exiftool-perl|exiftool||metadados de arquivos
 re|upx|upx-ucl|upx||detecta e desfaz empacotamento UPX

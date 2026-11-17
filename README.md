@@ -44,7 +44,7 @@ As skills de conhecimento (`web`, `monolito`, `microservicos`, `dependencias`, `
 ### Scripts
 
 - `detectar-stack.sh` — só leitura; mapeia o repositório em segundos (bash 3.2+, usa `git`, `grep`, `awk`).
-- `ferramentas.sh [geral|re|tudo] [--instalar]` — inventário de mais de 50 ferramentas com o comando de instalação adequado ao sistema. Com `--instalar`, usa `apt-get` ou Homebrew, mais `pipx`/`pip`, `npm`, `go` e `dotnet` para o que não está nesses repositórios.
+- `ferramentas.sh [geral|re|tudo] [--instalar]` — inventário de mais de 55 ferramentas com o comando de instalação adequado ao sistema. Com `--instalar`, usa `apt-get` ou Homebrew, mais `pipx`/`pip`, `npm`, `go` e `dotnet` para o que não está nesses repositórios.
 
 ## Instalação
 
