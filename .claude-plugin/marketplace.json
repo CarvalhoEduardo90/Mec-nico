@@ -1,0 +1,16 @@
+{
+  "name": "mecanico",
+  "description": "Agentes e skills de manutenção de código: diagnóstico, correção, arquitetura web/monólito/microsserviços e engenharia reversa.",
+  "owner": {
+    "name": "CarvalhoEduardo90"
+  },
+  "plugins": [
+    {
+      "name": "mecanico",
+      "source": "./plugins/mecanico",
+      "description": "O mecânico do seu código: analisa, diagnostica e corrige em qualquer linguagem ou stack.",
+      "category": "development",
+      "tags": ["manutenção", "debug", "refatoração", "microsserviços", "engenharia-reversa"]
+    }
+  ]
+}

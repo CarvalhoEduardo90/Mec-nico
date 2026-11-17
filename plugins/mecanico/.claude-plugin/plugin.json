@@ -1,0 +1,11 @@
+{
+  "name": "mecanico",
+  "displayName": "Mecânico",
+  "version": "1.0.0",
+  "description": "Agentes e skills para manutenção de código em qualquer linguagem ou stack: diagnóstico de causa raiz, correção verificada, arquitetura web/monólito/microsserviços, dependências e engenharia reversa de aplicativos.",
+  "author": {
+    "name": "CarvalhoEduardo90"
+  },
+  "repository": "https://github.com/CarvalhoEduardo90/Mec-nico",
+  "keywords": ["manutencao", "debug", "bugfix", "refatoracao", "web", "monolito", "microsservicos", "engenharia-reversa"]
+}
